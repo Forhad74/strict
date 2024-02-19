@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------------header------------*/
+header{
+    background: #f6f9f9;
+}
+.header_wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;  
+
+}
+.logo{
+    width: 20%;
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2d3950;
+}
+/*------------Bannar part---------------*/
+.bannar_section{
+    position: relative;
+}
+.bannar_section img{
+ width: 100%;
+}
+.bannar_content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.bannar_content h1{
+    color: #ffffff;
+    font-size: 120px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+.bannar_content span{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #15a4fa;
+}
+
+.bannar_content p{
+    color: #ffff;
+    margin: 20px 0 40px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+.bannar_content button{
+    border: none;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    color: #ffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    border-radius: 3px;
+}
+.bannar_content button:hover{
+    background: #15a4fa;
+    transition: .5s al ease-in-out;
+}
+
+.icon{
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    transform: translate(-50%, 0px);
+    font-size: 20px;
+    color: #fff;
+}
+/*----------------------content part---------------------*/
+section{
+ background: #f6f9f9;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 25px 0;
+}
+.content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: #2d3950;
+}
+.content p{
+    color:#999999;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
